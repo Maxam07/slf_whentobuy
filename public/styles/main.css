@@ -1,0 +1,29 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: none;
+}
+
+span {
+    font-size: smaller;
+}
+
+table {
+    font-size: smaller;
+    text-align: center;
+}
+
+td {
+    border-bottom: 1px solid rgb(125, 125, 125);
+}
+
+.date_time {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin-bottom: .5rem;
+}
